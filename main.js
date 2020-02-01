@@ -1,7 +1,5 @@
-function hoverOn() {
-    document.getElementById("corgi").style.opacity = "80%";
+document.getElementById("corgi").ontouchstart = hoverOn();
 
-}
-function hoverOff() {
-    document.getElementById("corgi").style.opacity = "100%";
+function hoverOn() {
+    document.getElementById("corgi").style.opacity = "50%";
 }
