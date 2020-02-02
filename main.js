@@ -1,9 +1,9 @@
 window.addEventListener('DOMContentLoaded', function () {
     let img = document.getElementById('corgi');
-    img.addEventListener('touchstart', handleStart, function () {
-        img.style.opacity = '50%';
+    img.addEventListener('touchstart', function () {
+        event.target.style.opacity = '50%';
     })
-    img.addEventListener('touchend', handleEnd, function () {
-        img.style.opacity = '100%';
+    img.addEventListener('touchend', function () {
+        event.target.style.opacity = '100%';
     })
 });
