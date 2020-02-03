@@ -3,9 +3,9 @@ window.addEventListener('load', function () {
     img.addEventListener('touchstart', function (ev) {
         ev.preventDefault();
         ev.target.style.opacity = '50%';
-    }, false)
+    }, true)
     img.addEventListener('touchend', function (ev) {
         ev.preventDefault();
         ev.target.style.opacity = '100%';
-    }, false)
+    }, true)
 });
