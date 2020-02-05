@@ -14,9 +14,9 @@
     <img id="corgi" src="https://cdn1-www.dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/prance-8.jpg"
         alt="corgi">
     <script>
-        $("#corgi").on("pagecreate", "#pageone", function () {
+        $("#corgi").on("pagecreate", function () {
             $("#corgi").on("tap", function () {
-                $(this).css("border", "6px solid red");
+                $(this).css({ 'opacity': '50%', 'border': '6px solid green' });
             });
         });
     </script>
